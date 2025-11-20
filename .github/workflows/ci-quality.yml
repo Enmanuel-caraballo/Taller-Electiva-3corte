@@ -29,5 +29,8 @@ jobs:
       - name: Test with coverage
         run: npm test
 
+      - name: Run tests with coverage
+        run: npm test -- --coverage
+
       - name: Check coverage threshold
         run: node ci-scripts/check-coverage.js
