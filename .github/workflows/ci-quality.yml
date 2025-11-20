@@ -30,4 +30,4 @@ jobs:
         run: npm test -- --coverage
 
       - name: Check coverage threshold
-        run: node ci-scripts/check-coverage.js
+        run: node ci-scripts/check-coverage-summary.js
