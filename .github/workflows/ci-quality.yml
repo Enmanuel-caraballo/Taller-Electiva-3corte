@@ -27,7 +27,7 @@ jobs:
         run: npm run build
 
       - name: Run tests with coverage
-        run: npm test -- --coverage
+        run: npm test
 
       - name: Check coverage threshold
         run: node ci-scripts/check-coverage-summary.js
